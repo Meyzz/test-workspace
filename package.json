@@ -1,4 +1,7 @@
 {
   "private": true,
-  "workspaces": ["components", "webapp"]
+  "workspaces": [
+    "components",
+    "webapp"
+  ]
 }

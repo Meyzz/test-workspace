@@ -1,12 +1,12 @@
-import React, {} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Container} from 'components';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Container} from "components";
 
 function App() {
   return (
     <div className="App">
-      <Container/>
+      <Container a={2} b={2}    />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
