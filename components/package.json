@@ -15,7 +15,9 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build"
+    "prepare": "tsdx build",
+    "postversion": "yarn publish",
+    "postpublish": "git push origin --tag"
   },
   "peerDependencies": {},
   "husky": {
@@ -29,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "components",
+  "name": "my1uikit",
   "author": "nikita medvedev",
   "module": "dist/components.esm.js",
   "devDependencies": {
